@@ -1,0 +1,92 @@
+.page-style{
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.link-section{
+  /* background-color: red; */
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.link-buttons{
+  background-color: black;
+  border: none;
+  /* border-radius: 5vmin; */
+  color: white;
+  cursor: pointer;
+  font-size: 2.5vmin;
+  height: 5vh;
+  margin-top: 0.5vh;
+  width: 25vw;
+}
+
+.header-section{
+  align-items: center;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  width: 100vw;
+}
+
+.header-title{
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 7.5vmin;
+  margin-top: 7.5vh;
+}
+
+.content{
+  /* background-color: orange; */
+  height: 60vh;
+  width: 100vw;
+}
+
+.search-section{
+  align-items: center;
+  /* background-color: yellow; */
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.search_bar{
+  border: solid 0.75vmin black;
+  border-radius: 5vmin;
+  font-size: 5vmin;
+  height: 10vh;
+  width: 80vw;
+}
+
+.search-button{
+  background-color: black;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5vmin;
+  height: 7.5vh;
+  width: 7.5vw;
+}
+
+.filter-section{
+  /* background-color: green; */
+  display: flex;
+  height: 7.5vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.footer-section{
+  /* background-color: purple; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 10vh;
+  width: 100vw;
+}
